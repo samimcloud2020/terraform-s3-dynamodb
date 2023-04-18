@@ -1,7 +1,4 @@
-terraform {
-  required_version = ">= 0.12"
-}
-root@SDOP_Ts:~/terraform-modules/s3# cat s3.tf
+
 resource "aws_s3_bucket" "terraform_state" {
   bucket = "terraform-backend-samim"
 
